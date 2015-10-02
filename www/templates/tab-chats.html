@@ -1,16 +1,29 @@
 <ion-view view-title="Chats">
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap">
+        <img src="https://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg">
+          <h2>Bill</h2>
+          <p>Bitches love money</p>
+          <i class="icon ion-chevron-right icon-accessory"></i>
 
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
       </ion-item>
+
+      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap">
+        <img src="https://pbs.twimg.com/profile_images/378800000822867536/3f5a00acf72df93528b6bb7cd0a4fd0c.jpeg">
+          <h2>Doge</h2>
+          <p>Wow, so app, very message</p>
+          <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+
+      <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap">
+        <img src="http://i.ytimg.com/vi/ZMyrAZWzHoc/hqdefault.jpg">
+          <h2>Hodor</h2>
+          <p>Hodor hodor</p>
+          <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+
+
     </ion-list>
   </ion-content>
 </ion-view>
